@@ -2,12 +2,10 @@ package com.isyo.remitconnecct.uis
 
 import android.content.Intent
 import android.os.Bundle
-import android.os.PersistableBundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -32,7 +30,6 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.isyo.remitconnecct.MainActivity
 import com.isyo.remitconnecct.R
-import com.isyo.remitconnecct.ui.theme.Green2BalanceBg
 import com.isyo.remitconnecct.ui.theme.GreenCustom
 import com.isyo.remitconnecct.ui.theme.GreenSuccessButtonBg
 

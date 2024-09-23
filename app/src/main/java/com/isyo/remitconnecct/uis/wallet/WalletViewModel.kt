@@ -5,11 +5,9 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.isyo.remitconnecct.data.RecipientRepository
+
 import com.isyo.remitconnecct.data.WalletRepository
-import com.isyo.remitconnecct.model.User
 import com.isyo.remitconnecct.model.Wallet
-import com.isyo.remitconnecct.uis.recipient.RecipientsUiState
 import kotlinx.coroutines.launch
 import retrofit2.HttpException
 import retrofit2.Response

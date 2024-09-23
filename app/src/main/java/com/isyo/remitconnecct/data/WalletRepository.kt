@@ -1,7 +1,6 @@
 package com.isyo.remitconnecct.data
 
 import com.isyo.remitconnecct.domain.RetrofitService
-import com.isyo.remitconnecct.model.User
 import com.isyo.remitconnecct.model.Wallet
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext

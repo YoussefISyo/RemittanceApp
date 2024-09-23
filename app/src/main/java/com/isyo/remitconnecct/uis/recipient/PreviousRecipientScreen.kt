@@ -32,7 +32,6 @@ import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextFieldDefaults
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -263,9 +262,9 @@ fun MySearchBar(
                 ),
             colors = TextFieldDefaults.outlinedTextFieldColors(
                 containerColor = GrayBackground,
-                focusedBorderColor = androidx.compose.ui.graphics.Color.Transparent,
-                unfocusedBorderColor = androidx.compose.ui.graphics.Color.Transparent,
-                cursorColor = androidx.compose.ui.graphics.Color.Black
+                focusedBorderColor = Color.Transparent,
+                unfocusedBorderColor = Color.Transparent,
+                cursorColor = Color.Black
 
             ),
         )
@@ -278,7 +277,7 @@ fun MySearchBar(
 fun SearchPreview(){
         Box(
             modifier = Modifier
-                .background(androidx.compose.ui.graphics.Color.White)
+                .background(Color.White)
                 .padding(40.dp)
                 .fillMaxWidth()
                 .height(50.dp),
